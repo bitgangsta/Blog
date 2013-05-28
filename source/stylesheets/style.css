@@ -1,0 +1,55 @@
+#header {
+	background: #444444;
+	padding: 1.5em 0;
+	margin: 0 0 3em;
+	position: relative;
+}
+#header a {
+    text-decoration:none;
+}
+#header h2 {
+    font-family: "Questrial","Helvetica Neue",Arial,Helvetica,sans-serif;
+    text-shadow: 0 0 10px;
+    color: white;
+    margin: 0 auto;
+    padding-left: 1em;
+}
+#header h5 {
+   font-family: "Questrial","Helvetica Neue",Arial,Helvetica,sans-serif;
+    text-shadow: 0 0 10px;
+    color: white;
+    float: right;
+    margin: 0 auto;
+    padding-right: 1em;
+}
+body { 
+    backgroud-color: #333333; 
+    font: Georgia, serif; 
+    margin: 0 auto; 
+}
+
+body .date {
+	font-size: 1.3em;
+	line-height: 1.15384615385;
+	display: block;
+}
+#main {
+	margin-right: 10em;
+	width: 600px;
+    float: right;
+}
+#main pre {
+    background: #F8F8F8;
+    -webkit-box-shadow: 0 1px 1px #a89a7a inset,0 1px 0 white;
+    -moz-box-shadow: 0 1px 1px #a89a7a inset,0 1px 0 white;
+    box-shadow: 0 1px 1px #a89a7a inset,0 1px 0 white;
+    padding: .5em 1em;
+    margin: 1.5em 0;
+    overflow: auto;
+}
+
+#sidebar {
+    padding-top: 0;
+    padding-left: 1.5em;
+    z-index: -1;
+}
